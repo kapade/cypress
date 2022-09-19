@@ -1,0 +1,19 @@
+{
+  "name": "cypress_tutorial",
+  "version": "1.0.0",
+  "description": "writing ui test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js",
+    "cypress:open" : "cypress open"
+  },
+  "author": "kapade",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "cypress": "^10.7.0"
+  }
+}
